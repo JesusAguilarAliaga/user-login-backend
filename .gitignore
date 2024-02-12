@@ -1,0 +1,47 @@
+# Dependencias
+node_modules/
+
+# Archivos generados durante la ejecución (logs, resultados de pruebas, etc.)
+*.log
+*.junit.xml
+coverage/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Directorio de construcción (si usas TypeScript/Babel/etc.)
+/build/
+
+# Archivos de configuración
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Dependencias específicas de sistema o editor
+.vscode/
+.idea/
+
+# Archivo de historial del sistema operativo
+.history/
+
+# Archivos de caché y respaldo
+*.log
+*.cache/
+*.yarn-integrity
+yarn-error.log
+.pnpm-debug.log
+
+# Archivo de configuración npm
+.npmrc
+
+# Archivos de TypeScript
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# Archivos de Firebase
+firebase-debug.log
